@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="classes" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.TestNGListener"/>
+  </listeners>
+  <test thread-count="20" parallel="classes" name="/Users/preethir/Downloads/rmg-selenium/Selenium(failed)" verbose="0">
+    <classes>
+      <class name="tests.AmazonTest">
+        <methods>
+          <include name="textBox1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.AmazonTest -->
+    </classes>
+  </test> <!-- /Users/preethir/Downloads/rmg-selenium/Selenium(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
